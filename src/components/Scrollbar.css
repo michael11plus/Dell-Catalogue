@@ -1,0 +1,46 @@
+.scrollbar {
+    width: 467px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    background-image: url('../../public/scrollbar-theme.png');
+    background-color: #4F153A;
+    color: #FCEECA;
+}
+
+.scrollbar--dots {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.scrollbar--sections {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.scrollbar--sections--icon {
+    margin-top: 16%;
+    position: absolute;
+    top: 0; 
+}
+
+.scrollbar--sections--caption {
+    padding-right: 28%;
+} 
+
+.scrollbar--sections--caption--latitude {
+    font-weight: 100;
+    font-size: 80px;
+}
+
+.scrollbar--sections--caption--text {
+    font-size: 24px;
+}
+
+.scrollbar--sections--caption--rectangle {
+
+}
