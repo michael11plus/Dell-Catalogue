@@ -1,11 +1,13 @@
 import './Content.css';
-import Cathegory from './Cathegory';
+import Category from './Category';
+import { contentData } from '../data/contentData' 
 
 export default function Content() {
     return(
         <div className='content'>
-           <Cathegory />
-           <Cathegory />
+           {contentData.map((categoryData) => <Category key={categoryData.heading} {...categoryData} />)}
+           
+         
         </div>
     )
 }
